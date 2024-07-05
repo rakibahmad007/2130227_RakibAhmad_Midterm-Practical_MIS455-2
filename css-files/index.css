@@ -1,0 +1,50 @@
+
+
+body{
+    background-color: skyblue;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+.container{
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+
+.inner-container{
+    display:inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    background-color: navy;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    transition: box-shadow 240ms;
+    box-shadow: 2px 2px 5px rgb(76, 10, 10);
+    cursor: pointer;
+    border: white;
+}
+
+.inner-container p:hover{
+    background-color: gray;
+}
+.inner-container img{
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    margin-top: 300px;
+}
